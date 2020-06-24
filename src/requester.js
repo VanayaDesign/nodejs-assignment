@@ -73,17 +73,21 @@ class RequestSender {
    * @returns {Object}
    *
    */
-  async SendRequest(endpoint, method, post_obj = null, headers = null) {
+  async SendRequest(endpoint, method, post_obj = null, options = null) {
     const method_reference = this.RequestParams[method].bind(this.RequestParams);
-    let request_headers = await method_reference(post_obj);
-
+    let request_options = await method_reference(post_obj);
+    console.log("request options === ", request_options)
     if (headers != null) {
 
-      request_headers.headers = Object.assign(request_headers.headers, headers);
+      request_headers.headers = Object.assign(request_options.headers, headers);
     }
-    headers = request_headers;
-    const response = await got(endpoint, headers)
-    return response
+    options = request_options;
+    const response = await got(endpoint, options)
+    return {
+      status: response.statusMessage,
+      code: response.statusCode,
+      body: response.body
+    }
   }
 }
 class RequestEndpoins {
@@ -105,7 +109,7 @@ class RequestEndpoins {
 class Requester {
   constructor(config, headers = {}) {
     this.request_sender = new RequestSender(config, headers);
-    this.request_endpoints = new RequestEndpoints(config);
+    this.request_endpoints = new RequestEndpoins(config);
   }
 
   /**
@@ -130,3 +134,5 @@ class Requester {
       "GET").then(res => res);
   }
 }
+
+module.exports = Requester

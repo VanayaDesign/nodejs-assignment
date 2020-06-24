@@ -1,0 +1,147 @@
+[
+  {
+    "customerId": "LA1169",
+    "totalRides": 1,
+    "durationMinutes": 33
+  },
+  {
+    "customerId": "LX1703",
+    "totalRides": 5,
+    "durationMinutes": 189
+  },
+  {
+    "customerId": "GE1085",
+    "totalRides": 2,
+    "durationMinutes": 98
+  },
+  {
+    "customerId": "GX1505",
+    "totalRides": 3,
+    "durationMinutes": 138
+  },
+  {
+    "customerId": "MQ1212",
+    "totalRides": 1,
+    "durationMinutes": 14
+  },
+  {
+    "customerId": "CE1171",
+    "totalRides": 2,
+    "durationMinutes": 134
+  },
+  {
+    "customerId": "MV1411",
+    "totalRides": 1,
+    "durationMinutes": 78
+  },
+  {
+    "customerId": "TY1208",
+    "totalRides": 3,
+    "durationMinutes": 146
+  },
+  {
+    "customerId": "WH1267",
+    "totalRides": 2,
+    "durationMinutes": 79
+  },
+  {
+    "customerId": "BB1237",
+    "totalRides": 2,
+    "durationMinutes": 25
+  },
+  {
+    "customerId": "PT1754",
+    "totalRides": 2,
+    "durationMinutes": 151
+  },
+  {
+    "customerId": "ZN1163",
+    "totalRides": 2,
+    "durationMinutes": 96
+  },
+  {
+    "customerId": "JW1515",
+    "totalRides": 2,
+    "durationMinutes": 151
+  },
+  {
+    "customerId": "WM1088",
+    "totalRides": 1,
+    "durationMinutes": 29
+  },
+  {
+    "customerId": "NP1443",
+    "totalRides": 4,
+    "durationMinutes": 222
+  },
+  {
+    "customerId": "AA1709",
+    "totalRides": 1,
+    "durationMinutes": 47
+  },
+  {
+    "customerId": "UG1663",
+    "totalRides": 1,
+    "durationMinutes": 17
+  },
+  {
+    "customerId": "DO1680",
+    "totalRides": 1,
+    "durationMinutes": 30
+  },
+  {
+    "customerId": "CT1641",
+    "totalRides": 3,
+    "durationMinutes": 147
+  },
+  {
+    "customerId": "UN1731",
+    "totalRides": 2,
+    "durationMinutes": 55
+  },
+  {
+    "customerId": "ZG1740",
+    "totalRides": 1,
+    "durationMinutes": 52
+  },
+  {
+    "customerId": "XT1325",
+    "totalRides": 2,
+    "durationMinutes": 90
+  },
+  {
+    "customerId": "GD1595",
+    "totalRides": 2,
+    "durationMinutes": 100
+  },
+  {
+    "customerId": "MV1632",
+    "totalRides": 2,
+    "durationMinutes": 95
+  },
+  {
+    "customerId": "JZ1716",
+    "totalRides": 3,
+    "durationMinutes": 107
+  },
+  {
+    "customerId": "RO1397",
+    "totalRides": 2,
+    "durationMinutes": 88
+  },
+  {
+    "customerId": "RK1547",
+    "totalRides": 1,
+    "durationMinutes": 22
+  },
+  {
+    "customerId": "BG1225",
+    "totalRides": 2,
+    "durationMinutes": 65
+  },
+  {
+    "customerId": "WB1723",
+    "totalRides": 1,
+    "durationMinutes": 34
+  }
+]
